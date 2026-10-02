@@ -1,0 +1,43 @@
+{
+  "gate": {
+    "platforms_active": 4,
+    "weekly_outputs_4w_avg": 5,
+    "payback_weeks": 3,
+    "boundary_check": {
+      "self_hosted_core": ["发布/上传", "定时排期", "多平台适配（画幅/文案/封面）", "评论互动"],
+      "official_required": ["任务市场/接单", "收益结算", "热点追踪数据源"],
+      "data_ownership_checked": true
+    }
+  },
+  "phase1_distribution": {
+    "only_one_stage": true,
+    "before_min_per_item": 22,
+    "after_min_per_item": 9,
+    "incidents": 0,
+    "verified_weeks": 3
+  },
+  "phase2_calendar": {
+    "calendar_coverage_days": 7,
+    "ad_hoc_decisions_per_week": 0,
+    "quality_variance_down": true
+  },
+  "phase3_fallback": {
+    "grading_configured": true,
+    "high_intent_human_review": 1.0,
+    "negative_ai_sent": 0,
+    "weekly_audit_done": true
+  },
+  "phase4_mcp": {
+    "integrated": true,
+    "min_chain_passed": 3,
+    "window_switches_per_week": 0,
+    "functions_fixed": 3
+  },
+  "phase5_monetization": {
+    "started": false,
+    "prerequisites_weeks": [3, 2, 2],
+    "min_task_completed": false,
+    "settlement_matches_advertised": null,
+    "official_rules_checked": true
+  }
+}

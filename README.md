@@ -34,6 +34,9 @@ Pipeline 型工具（多平台分发/多智能体流水线/后台协同类）接
 ```bash
 python scripts/validate.py tests/sample_good.json   # 必须 exit 0
 python scripts/validate.py tests/sample_bad.json    # 必须 exit 1
+
+# 一行自验（正反向 + 退出码全覆盖，零依赖）
+python tests/test_validate.py
 ```
 
 ## 结构
